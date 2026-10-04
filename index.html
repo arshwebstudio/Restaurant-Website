@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ember & Spice — Modern Indian Restaurant</title>
+
+    <meta name="description"
+        content="Ember & Spice is a modern Indian restaurant serving handcrafted dishes, bold flavours and memorable dining experiences.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header>
+        <nav>
+
+            <a href="#" class="logo">
+                Ember<span>&</span>Spice
+            </a>
+
+            <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#reservation" class="nav-button">
+                Reserve a Table
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    AUTHENTIC FLAVOURS · MODERN EXPERIENCE
+                </p>
+
+                <h1>
+                    Taste the art<br>
+                    of <span>Indian cuisine.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Handcrafted dishes, traditional spices and modern
+                    presentation — created for unforgettable evenings.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="primary-button">
+                        Explore Menu
+                    </a>
+
+                    <a href="#reservation" class="secondary-button">
+                        Reserve a Table
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                Scroll to explore
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section id="about" class="about section">
+
+            <div class="about-image">
+
+                <div class="image-decoration"></div>
+
+                <div class="about-badge">
+                    <strong>12+</strong>
+                    <span>Years of passion</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    OUR STORY
+                </p>
+
+                <h2>
+                    Where tradition<br>
+                    meets <span>creativity.</span>
+                </h2>
+
+                <p>
+                    At Ember & Spice, we believe food is more than a meal.
+                    It is a story, a memory and an experience shared around
+                    the table.
+                </p>
+
+                <p>
+                    Our chefs combine time-honoured Indian recipes with
+                    contemporary techniques, using carefully selected
+                    ingredients and freshly ground spices.
+                </p>
+
+                <a href="#menu" class="text-link">
+                    Discover our menu →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- SPECIALS -->
+
+        <section class="specials section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    CHEF'S SELECTION
+                </p>
+
+                <h2>
+                    Favourites from<br>
+                    <span>our kitchen.</span>
+                </h2>
+
+                <p>
+                    A few dishes our guests keep coming back for.
+                </p>
+
+            </div>
+
+
+            <div class="food-grid">
+
+                <article class="food-card">
+
+                    <div class="food-image dish-one">
+                        <span class="food-tag">CHEF'S PICK</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Smoked Butter Chicken</h3>
+                            <p>
+                                Charred chicken, tomato makhani,
+                                fenugreek and smoked butter.
+                            </p>
+                        </div>
+
+                        <strong>₹495</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-image dish-two">
+                        <span class="food-tag">POPULAR</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Royal Paneer Tikka</h3>
+                            <p>
+                                Charred paneer, saffron marinade,
+                                peppers and mint chutney.
+                            </p>
+                        </div>
+
+                        <strong>₹395</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-image dish-three">
+                        <span class="food-tag">SIGNATURE</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Lucknowi Biryani</h3>
+                            <p>
+                                Fragrant basmati rice, slow-cooked
+                                spices, herbs and saffron.
+                            </p>
+                        </div>
+
+                        <strong>₹445</strong>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENU -->
+
+        <section id="menu" class="menu section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    OUR MENU
+                </p>
+
+                <h2>
+                    Made with passion.<br>
+                    <span>Served with love.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="menu-container">
+
+                <div class="menu-column">
+
+                    <h3>Starters</h3>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Tandoori Chicken</h4>
+                            <p>Smoked chicken, yogurt, spices</p>
+                        </div>
+                        <strong>₹425</strong>
+                    </div>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Paneer Tikka</h4>
+                            <p>Charred paneer, peppers, mint</p>
+                        </div>
+                        <strong>₹375</strong>
+                    </div>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Masala Prawns</h4>
+                            <p>Garlic, chilli, coastal spices</p>
+                        </div>
+                        <strong>₹525</strong>
+                    </div>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Truffle Samosa</h4>
+                            <p>Potato, peas, truffle oil</p>
+                        </div>
+                        <strong>₹295</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-column">
+
+                    <h3>Main Course</h3>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Butter Chicken</h4>
+                            <p>Tomato, cream, fenugreek</p>
+                        </div>
+                        <strong>₹495</strong>
+                    </div>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Dal Ember</h4>
+                            <p>Black lentils, butter, smoked spices</p>
+                        </div>
+                        <strong>₹345</strong>
+                    </div>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Lamb Rogan Josh</h4>
+                            <p>Slow-cooked lamb, Kashmiri spices</p>
+                        </div>
+                        <strong>₹575</strong>
+                    </div>
+
+                    <div class="menu-item">
+                        <div>
+                            <h4>Vegetable Biryani</h4>
+                            <p>Basmati rice, saffron, seasonal vegetables</p>
+                        </div>
+                        <strong>₹395</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+
+        <section class="experience">
+
+            <div class="experience-content">
+
+                <p class="eyebrow">
+                    THE EMBER EXPERIENCE
+                </p>
+
+                <h2>
+                    Good food.<br>
+                    <span>Good moments.</span>
+                </h2>
+
+                <p>
+                    From intimate dinners to celebrations with friends,
+                    every detail is designed to make your evening special.
+                </p>
+
+                <a href="#reservation" class="primary-button">
+                    Plan Your Visit
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY -->
+
+        <section id="gallery" class="gallery section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    INSIDE EMBER & SPICE
+                </p>
+
+                <h2>
+                    A feast for<br>
+                    <span>the senses.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-one">
+                    <span>Dining</span>
+                </div>
+
+                <div class="gallery-item gallery-two">
+                    <span>Flavours</span>
+                </div>
+
+                <div class="gallery-item gallery-three">
+                    <span>Kitchen</span>
+                </div>
+
+                <div class="gallery-item gallery-four">
+                    <span>Moments</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- REVIEWS -->
+
+        <section class="reviews section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    GUEST EXPERIENCES
+                </p>
+
+                <h2>
+                    Loved by our<br>
+                    <span>guests.</span>
+                </h2>
+
+                <p>
+                    Sample testimonial layouts for this demo website.
+                </p>
+
+            </div>
+
+
+            <div class="review-grid">
+
+                <div class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Beautiful atmosphere, incredible food and
+                        genuinely thoughtful service. Every dish felt
+                        special."
+                    </p>
+
+                    <strong>— Sample Guest</strong>
+
+                </div>
+
+
+                <div class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "The perfect place for a relaxed dinner.
+                        The flavours were outstanding."
+                    </p>
+
+                    <strong>— Sample Guest</strong>
+
+                </div>
+
+
+                <div class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "A modern take on Indian food without losing
+                        what makes it comforting."
+                    </p>
+
+                    <strong>— Sample Guest</strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESERVATION -->
+
+        <section id="reservation" class="reservation section">
+
+            <div class="reservation-box">
+
+                <div>
+
+                    <p class="eyebrow">
+                        YOUR TABLE AWAITS
+                    </p>
+
+                    <h2>
+                        Make tonight<br>
+                        <span>delicious.</span>
+                    </h2>
+
+                    <p>
+                        Join us for an evening of bold flavours,
+                        warm hospitality and unforgettable moments.
+                    </p>
+
+                </div>
+
+
+                <div class="reservation-details">
+
+                    <div>
+                        <span>MON — THU</span>
+                        <strong>12:00 PM — 10:30 PM</strong>
+                    </div>
+
+                    <div>
+                        <span>FRI — SUN</span>
+                        <strong>12:00 PM — 11:30 PM</strong>
+                    </div>
+
+                    <a href="mailto:hello@emberandspice.demo"
+                        class="primary-button">
+                        Book a Table
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact section">
+
+            <p class="eyebrow">
+                FIND US
+            </p>
+
+            <h2>
+                Come hungry.<br>
+                <span>Leave happy.</span>
+            </h2>
+
+            <div class="contact-grid">
+
+                <div>
+                    <strong>ADDRESS</strong>
+                    <p>42 Heritage Avenue<br>New Delhi, India</p>
+                </div>
+
+                <div>
+                    <strong>PHONE</strong>
+                    <p>+91 98765 43210</p>
+                </div>
+
+                <div>
+                    <strong>EMAIL</strong>
+                    <p>hello@emberandspice.demo</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            Ember<span>&</span>Spice
+        </div>
+
+        <p>
+            Demo restaurant website created for portfolio purposes.
+        </p>
+
+        <p class="copyright">
+            © 2026 Ember & Spice. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
